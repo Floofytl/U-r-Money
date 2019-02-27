@@ -98,12 +98,3 @@ ul li:nth-child(4) a {
     font-family: Laila;
     color: #0fb9b1;
 }
-
-.header button {
-    color: black;
-    background: crimson;
-    padding: 18px 38px;
-    border: none;
-    font-size: 14px;
-    margin-top: 40px;
-}

@@ -1,20 +1,21 @@
-html,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
-body {
-    width: 100%;
     height: 100%;
-    background: url(Bkg1.jpg);
     background-repeat: no-repeat;
+    background: url(sing.jpg);
     background-size: cover;
     display: table;
     font-family: monospace;
 }
-
 .nav {
     position: fixed;
     top: 0;
@@ -73,8 +74,7 @@ ul li:nth-child(4) a {
 }
 
 .header {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -102,9 +102,69 @@ ul li:nth-child(4) a {
     color: #4cd137;
 }
 
+.header a {
+    font-size: 200%;
+    margin-bottom: 8px;
+    font-family: Lobster;
+    font-weight: lighter;
+    color: #4cd137;
+    text-decoration: none;
+}
+
 .header p {
     font-size: 200%;
     font-weight: bold;
     font-family: Laila;
     color: #0fb9b1;
+}
+
+.header li {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Laila;
+    color: #0fb9b1;
+}
+.Login {
+    background: rgba(0,0,0,0.4);
+    border-radius: 50px;
+    padding: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+    margin-top: 0px;
+    font-family: Lobster;
+    font-weight: lighter;
+    color: #4cd137;
+    font-size: 400%;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 320px;
+    height: 50px;
+    background: rgba(0,0,0,0.6);
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.8);
+    font-family: Laila;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+button{
+    width: 332px;
+    height: 50px;
+    font-size: 16px;
+    background: #0fb9b1;
+    font-family: Lobster;
+    font-weight: lighter;
+    color: black;
+    border: 0px;
+    border-radius: 50px;
 }
