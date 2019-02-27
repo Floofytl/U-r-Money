@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100hv;
+    background: url(student-849825_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: monospace;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid;
+}
+
+.logo {
+    letter-spacing: 1px;
+    float: left;
+    color: black;
+    font-size: 200%;
+    line-height: 80px;
+    padding: 0 6em;
+    font-family: Lobster;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+    margin: 0 6em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    padding: 0 20px;
+    font-family: Merriweather
+}
+
+ul li:nth-child(3) a {
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    padding: 10px 20px;
+    border-radius: 4px
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-family: Lobster;
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Laila;
+}
+
+.header button {
+    color: black;
+    background: crimson;
+    padding: 18px 38px;
+    border: none;
+    font-size: 14px;
+    margin-top: 40px;
+}
